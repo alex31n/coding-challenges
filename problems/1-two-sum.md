@@ -48,11 +48,11 @@ The most intuitive way to solve this is by checking every possible pair of numbe
 - The inner loop iterates through the remaining elements $j$.
 - If nums[i] + nums[j] equals the target, you return the indices $[i, j]$.
 
-### Complexity:
+### Complexity
 - Time Complexity: $O(n^2)$. We compare each element with every other element.
 - Space Complexity: $O(1)$. No extra data structures are used.
 
-### Code
+### Implementation
 
 Python
 ```python
