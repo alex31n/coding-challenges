@@ -14,7 +14,7 @@ Problem descriptions, Examples, Constraints, etc.
 Explain the problem, what it says, and what we need to calculate. write goal here.
 
 ### Approaches
-business logic
+business logic with bullet points
 
 ### Complexity
 Time Complexity:  
