@@ -4,7 +4,7 @@
 
 **Topics :** `Topic1` `Topic2` `Topic3`
 
-**Source:** [LeetCode - Short Problem Title](https://leetcode.com/problems/problem-slug/)
+**Source:** [LeetCode - Short Title](https://leetcode.com/problems/problem-slug/)
 
 ---
 
@@ -24,7 +24,7 @@ Explain the problem, what it says, and what we need to calculate.
 
 **Goal:** State the specific goal of the solution.
 
-### 1. Approach Name 1
+### 1. Approach Name 1 (Optimal and recommeded methods should be here)
 Describe the approach in detail.
 
 **Business Logic:**
