@@ -83,7 +83,7 @@ class Solution {
 ```
 
 ## Comparison
-| Approach        | Time Complexity | Space Complexity | Notes or Best For or any  |
+| Approach        | Time Complexity | Space Complexity | Notes / Best For / Any       |
 | --------------- | --------------- | ---------------- | ---------------------------- |
 | Approach Name 1 | $O(n)$          | $O(1)$           | Brief note on this approach. |
 | Approach Name 2 | $O(n)$          | $O(n)$           | Brief note on this approach. |
