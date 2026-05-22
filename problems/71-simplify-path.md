@@ -95,20 +95,22 @@ class Solution:
 ```
 Java
 ```java
-import java.util.Stack;
+import java.util.ArrayDeque;
+import java.util.Deque;
 
 class Solution {
     public String simplifyPath(String path) {
-        Stack<String> stack = new Stack<>();
+        // ArrayDeque is preferred over the legacy Stack class in Java
+        Deque<String> stack = new ArrayDeque<>();
         String[] parts = path.split("/");
         
         for (String part : parts) {
             if (part.equals("..")) {
                 if (!stack.isEmpty()) {
-                    stack.pop();
+                    stack.removeLast();
                 }
             } else if (!part.isEmpty() && !part.equals(".")) {
-                stack.push(part);
+                stack.addLast(part);
             }
         }
         
